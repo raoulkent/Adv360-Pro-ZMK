@@ -42,5 +42,6 @@ Follow the programming instruction on page 8 of the [Quick Start Guide](https://
 ## Other support
 
 Further support resources can be found on Kinesis.com
-https://kinesis-ergo.com/support/kb360pro/#firmware-updates
-https://kinesis-ergo.com/support/kb360pro/#manuals
+1. https://kinesis-ergo.com/support/kb360pro/#firmware-updates
+2. https://kinesis-ergo.com/support/kb360pro/#manuals
+3. https://kinesiscorporation.github.io/Adv360-Pro-GUI/
