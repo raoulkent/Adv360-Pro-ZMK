@@ -1,3 +1,21 @@
+macro_eurkey_ö: macro_eurkey_ö{
+compatible = "zmk,behavior-macro";
+label = "macro_eurkey_ö";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp O>;
+};
+macro_eurkey_ä: macro_eurkey_ä{
+compatible = "zmk,behavior-macro";
+label = "macro_eurkey_ä";
+#binding-cells = <0>;
+bindings = <&kp RALT>, <&kp A>;
+};
+macro_eurkey_å: macro_eurkey_å{
+compatible = "zmk,behavior-macro";
+label = "macro_eurkey_å";
+#binding-cells = <0>;
+bindings = <&kp RALT>, <&kp W>;
+};
 macro_workspace_right: macro_workspace_right{
 compatible = "zmk,behavior-macro";
 label = "macro_workspace_right";
