@@ -1,21 +1,3 @@
-macro_eurkey_oe: macro_eurkey_oe{
-compatible = "zmk,behavior-macro";
-label = "macro_eurkey_oe";
-#binding-cells = <0>;
-bindings = <&kp RALT>, <&kp O>;
-};
-macro_eurkey_ae: macro_eurkey_ae{
-compatible = "zmk,behavior-macro";
-label = "macro_eurkey_ae";
-#binding-cells = <0>;
-bindings = <&kp RALT>, <&kp A>;
-};
-macro_eurkey_aa: macro_eurkey_aa{
-compatible = "zmk,behavior-macro";
-label = "macro_eurkey_aa";
-#binding-cells = <0>;
-bindings = <&kp RALT>, <&kp W>;
-};
 macro_workspace_right: macro_workspace_right{
 compatible = "zmk,behavior-macro";
 label = "macro_workspace_right";
