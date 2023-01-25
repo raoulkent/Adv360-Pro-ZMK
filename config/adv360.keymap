@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL  &kp EXCLAMATION    &kp AT       &kp POUND       &kp DOLLAR  &kp PERCENT                &none                                                                                            &mo 3  &kp CARET  &kp AMPERSAND        &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-   &kp TAB            &kp Q     &kp W           &kp F            &kp P        &kp B            &kp RA(W)                                                                                            &none      &kp J          &kp L           &kp U                 &kp Y               &kp SEMI   &kp BSLH
-   &kp ESC            &kp A     &kp R           &kp S            &kp T        &kp G            &kp RA(A)  &kp LEFT_ALT     &kp LEFT_META                     &kp RIGHT_META  &kp RIGHT_CONTROL  &kp RA(O)      &kp M          &kp N           &kp E                 &kp I                  &kp O    &kp SQT
- &kp LSHFT            &kp Z     &kp X           &kp C            &kp D        &kp V                &none         &none  &kp LEFT_CONTROL   &none   &none      &kp RIGHT_ALT              &none      &none      &kp K          &kp H       &kp COMMA               &kp DOT               &kp FSLH  &kp RSHFT
-     &mo 2        &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BSPC       &kp DEL             &mo 1                  &kp C_AL_TUTORIAL          &kp ENTER  &kp SPACE              &kp UP_ARROW  &kp DOWN_ARROW              &kp LBKT               &kp RBKT      &mo 2
+ &kp EQUAL  &kp EXCLAMATION    &kp AT       &kp POUND       &kp DOLLAR  &kp PERCENT                &none                                                                                         &mo 3  &kp CARET  &kp AMPERSAND        &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+   &kp TAB            &kp Q     &kp W           &kp F            &kp P        &kp B            &kp RA(W)                                                                                         &none      &kp J          &kp L           &kp U                 &kp Y               &kp SEMI   &kp BSLH
+   &kp ESC            &kp A     &kp R           &kp S            &kp T        &kp G            &kp RA(A)  &kp LEFT_ALT     &kp LEFT_META                  &kp RIGHT_META  &kp RIGHT_CONTROL  &kp RA(O)      &kp M          &kp N           &kp E                 &kp I                  &kp O    &kp SQT
+ &kp LSHFT            &kp Z     &kp X           &kp C            &kp D        &kp V                &none         &none  &kp LEFT_CONTROL   &none   &none   &kp RIGHT_ALT              &none      &none      &kp K          &kp H       &kp COMMA               &kp DOT               &kp FSLH  &kp RSHFT
+     &mo 2        &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW                          &kp BSPC       &kp DEL             &mo 1                   &kp LA(SPACE)          &kp ENTER  &kp SPACE              &kp UP_ARROW  &kp DOWN_ARROW              &kp LBKT               &kp RBKT      &mo 2
             >;
         };
 
