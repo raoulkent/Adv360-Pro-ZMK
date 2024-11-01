@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL         &kp AT_SIGN  &kp DOUBLE_QUOTES    &kp STAR  &kp DOUBLE_QUOTES  &kp LEFT_BRACE                          &tog 1                                                                                         &mo 3  &kp RIGHT_BRACE             &kp EXCL  &kp AMPERSAND                &none          &none  &kp MINUS
-   &kp TAB               &kp Q              &kp W       &kp F              &kp P           &kp B                &kp LEFT_BRACKET                                                                             &kp RIGHT_BRACKET            &kp J                &kp L          &kp U                &kp Y  &kp SEMICOLON   &kp BSLH
-   &kp ESC  &mt LEFT_CONTROL A         &mt LALT R  &mt LGUI S        &mt LSHFT T           &kp G            &kp LEFT_PARENTHESIS  &kp LCTRL  &kp LEFT_COMMAND                       &kp LGUI  &kp RCTRL  &kp RIGHT_PARENTHESIS     &mt RSHIFT N  &mt RIGHT_COMMAND E     &mt RALT I  &mt RIGHT_CONTROL O          &kp O    &kp SQT
- &kp LSHFT               &kp Z              &kp X       &kp C              &kp D           &kp V                                                 &kp LEFT_ALT                  &kp RIGHT_ALT                                              &kp K                &kp H      &kp COMMA              &kp DOT       &kp FSLH  &kp RSHFT
-     &mo 2           &kp GRAVE           &kp CAPS    &kp LEFT          &kp RIGHT                                        &kp BSPC    &kp DEL             &mo 1                          &none  &kp ENTER              &kp SPACE                                &kp UP       &kp DOWN                &none          &none      &mo 2
+ &kp EQUAL         &kp AT_SIGN  &kp DOUBLE_QUOTES    &kp STAR  &kp DOUBLE_QUOTES  &kp LEFT_BRACE                          &tog 1                                                                                         &mo 3  &kp RIGHT_BRACE           &kp EXCL  &kp AMPERSAND            &none          &none  &kp MINUS
+   &kp TAB               &kp Q              &kp W       &kp F              &kp P           &kp B                &kp LEFT_BRACKET                                                                             &kp RIGHT_BRACKET            &kp J              &kp L          &kp U            &kp Y  &kp SEMICOLON   &kp BSLH
+   &kp ESC  &mt LEFT_CONTROL A         &mt LALT R  &mt LGUI S        &mt LSHFT T           &kp G            &kp LEFT_PARENTHESIS  &kp LCTRL  &kp LEFT_COMMAND                       &kp LGUI  &kp RCTRL  &kp RIGHT_PARENTHESIS            &kp M  &mt RIGHT_SHIFT N     &mt RGUI E  &mt RIGHT_ALT I    &mt RCTRL O    &kp SQT
+ &kp LSHFT               &kp Z              &kp X       &kp C              &kp D           &kp V                                                 &kp LEFT_ALT                  &kp RIGHT_ALT                                              &kp K              &kp H      &kp COMMA          &kp DOT       &kp FSLH  &kp RSHFT
+     &mo 2           &kp GRAVE           &kp CAPS    &kp LEFT          &kp RIGHT                                        &kp BSPC    &kp DEL             &mo 1                          &none  &kp ENTER              &kp SPACE                              &kp UP       &kp DOWN            &none          &none      &mo 2
             >;
         };
 
