@@ -1,0 +1,23 @@
+// Hyper Key: ⇧ ⌥ ^ ⌘ (Shift + Alt + Control + Command)
+#define LEFT_HYPER             LS(LA(LC(LGUI)))
+#define LHYP                   LEFT_HYPER
+#define RIGHT_HYPER            RS(RA(RC(RGUI)))
+#define RHYP                   RIGHT_HYPER
+
+// Hyper Key function like LG and RG
+#define LH(keycode)            LS(LA(LC(LG(keycode))))
+#define RH(keycode)            RS(RA(RC(RG(keycode))))
+
+// Meh Key: ⇧ ⌥ ^ (Shift + Alt + Control)
+#define LEFT_MEH               LS(LA(LCTRL))
+#define LMEH                   LEFT_MEH
+#define RIGHT_MEH              RS(RA(RCTRL))
+#define RMEH                   RIGHT_MEH
+
+// Meh Key function like LG and RG
+#define LM(keycode)            LS(LA(LC(keycode)))
+#define RM(keycode)            RS(RA(RC(keycode)))
+
+// Keys I feel should be part of ZMK
+#define BACK_TAB               LS(TAB)
+#define BTAB                   BACK_TAB
