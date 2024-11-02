@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp EXCL            &kp AT      &kp POUND   &kp DOLLAR   &kp LEFT_BRACE  &tog 1                                                                                      &mo 3                  &kp RIGHT_BRACE  &kp PERCENT        &kp CARET   &kp AMPERSAND    &kp STAR       &kp MINUS
-&kp TAB    &kp Q               &kp W       &kp F       &kp P        &kp B           &kp LEFT_BRACKET                                                                            &kp RIGHT_BRACKET      &kp J            &kp L              &kp U       &kp Y            &kp SEMICOLON  &kp BSLH
-&kp ESC    &hm LEFT_CONTROL A  &hm LALT R  &hm LGUI S  &hm LSHFT T  &kp G           &kp LEFT_PARENTHESIS  &kp LCTRL  &kp LS(LA(LCTRL))         &kp RA(RS(RCTRL))     &kp RCTRL  &kp RIGHT_PARENTHESIS  &kp M            &hm RIGHT_SHIFT N  &hm RGUI E  &hm RIGHT_ALT I  &hm RCTRL O    &kp SQT
-&kp LSHFT  &kp Z               &kp X       &kp C       &kp D        &kp V                                            &kp LS(LA(LC(LGUI)))      &kp RS(RA(RC(RGUI)))                                    &kp K            &kp H              &kp COMMA   &kp DOT          &kp FSLH       &kp RSHFT
-&mo 2      &kp GRAVE           &kp CAPS    &kp LEFT    &kp RIGHT                    &kp BSPC              &kp DEL    &mo 1                     &none                 &kp ENTER  &kp SPACE                               &kp UP             &kp DOWN    &none            &none          &mo 2
+&kp EQUAL  &kp EXCL            &kp AT      &kp POUND   &kp DOLLAR   &kp LEFT_BRACE  &tog 1                                                                                    &mo 3                  &kp RIGHT_BRACE  &kp PERCENT        &kp CARET   &kp AMPERSAND    &kp STAR       &kp MINUS
+&kp TAB    &kp Q               &kp W       &kp F       &kp P        &kp B           &kp LEFT_BRACKET                                                                          &kp RIGHT_BRACKET      &kp J            &kp L              &kp U       &kp Y            &kp SEMICOLON  &kp BSLH
+&kp ESC    &hm LEFT_CONTROL A  &hm LALT R  &hm LGUI S  &hm LSHFT T  &kp G           &kp LEFT_PARENTHESIS  &none    &kp LS(LA(LCTRL))         &kp RA(RS(RCTRL))     &mo 4      &kp RIGHT_PARENTHESIS  &kp M            &hm RIGHT_SHIFT N  &hm RGUI E  &hm RIGHT_ALT I  &hm RCTRL O    &kp SQT
+&kp LSHFT  &kp Z               &kp X       &kp C       &kp D        &kp V                                          &kp LS(LA(LC(LGUI)))      &kp RS(RA(RC(RGUI)))                                    &kp K            &kp H              &kp COMMA   &kp DOT          &kp FSLH       &kp RSHFT
+&mo 2      &kp GRAVE           &kp CAPS    &kp LEFT    &kp RIGHT                    &kp BSPC              &kp DEL  &mo 1                     &none                 &kp ENTER  &kp SPACE                               &kp UP             &kp DOWN    &none            &none          &mo 2
             >;
         };
 
@@ -81,7 +81,7 @@
 &kp EXCL   &kp LEFT_BRACE  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp RIGHT_BRACE  &kp QUESTION  &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp POUND  &kp CARET       &kp EQUAL             &kp UNDER              &kp DOLLAR       &kp STAR      &trans       &kp BACKSLASH  &kp PERIOD         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TILDE  &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GT           &kp SLASH                                 &kp ASTERISK       &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp AT     &kp AMPS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                       &kp PERCENT  &kp COLON      &kp SEMICOLON      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp AT     &kp AMPS        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                       &kp PERCENT  &kp COLON      &kp SEMICOLON      &tog 0  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
